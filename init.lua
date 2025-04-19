@@ -82,6 +82,8 @@ vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
 vim.keymap.set('n', '<right>', '<cmd>echo "Use l to move!!"<CR>')
 vim.keymap.set('n', '<up>', '<cmd>echo "Use k to move!!"<CR>')
 vim.keymap.set('n', '<down>', '<cmd>echo "Use j to move!!"<CR>')
+vim.keymap.set('n', '<S-down>', '<cmd>echo "Assuming you didnt want to C-down"<CR>')
+vim.keymap.set('n', '<S-up>', '<cmd>echo "Assuming you didnt want to C-up"<CR>')
 
 -- Some key bindings are just anoying
 vim.keymap.set('n', '.', '<cmd>echo ". are so dumb"<CR>')
